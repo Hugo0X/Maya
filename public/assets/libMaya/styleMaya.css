@@ -1,0 +1,169 @@
+/**
+* Style ajouté pour Maya
+* Author: MD
+* https://mdbootstrap.com/docs/jquery/css/colors/
+*/
+
+/* personnalisation classes bootstrap */
+
+.bg-success {
+  background-color: #689f38 !important;
+}
+.btn-primary {
+  background-color: #689f38;
+  border-color: #2e7d32;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #2e7d32;   
+  border-color: #1b5e20;
+}
+
+.table-hover tbody tr:hover {
+  /*color: #2e7d32; */
+  font-weight: bolder;
+  background-color: #c5e1a5 ;
+}
+
+
+
+.page-link {
+  color: #689f38;
+}
+
+.page-item.active .page-link {
+  background-color: #689f38;
+}
+
+.page-item.disabled .page-link {
+  color: #689f38;
+}
+
+
+/* personnalisation html */
+body {
+  padding-top: 70px;
+}
+
+h1 {
+  text-align: center;
+    text-shadow: 2px 2px 5px #689f38;
+}
+
+/* classes Maya */
+
+.bg-entete {
+  background-color: #dcedc8;
+}
+
+.contenu {
+  background-color: #f1f8e9;
+  border: 2px solid #689f38;
+  border-radius: 6px;
+  line-height: 40px;
+  padding: 10px;
+ }
+ 
+.contenu-blanc {
+  background-color: white;
+  border: 2px solid #689f38;
+  border-radius: 6px;
+  line-height: 40px;
+  padding: 10px;
+ }
+
+.col-actions {
+  width: 196px;
+}
+
+.col-actions-lg {
+  width: 216px;
+}
+
+.col-identifiants {
+  width: 100px;
+}
+
+/* Permet d'aligner les checkbox & les labels */
+.produits .custom-control-label {
+  padding-top: 4px;
+  display: inline;
+  user-select: none;
+}
+
+.produits {
+  height: calc(100vh - 450px); /* Temporaire */
+  overflow: auto;
+  padding: 0;
+}
+
+.produits .custom-checkbox {
+  border-bottom: 1px solid rgba(0,0,0,.125);
+  padding-left: 35px !important;
+}
+
+.categories-cards a {
+  color: white;
+  font-size: 50px !important;
+  font-weight: bold;
+  text-shadow: 0 0px 11px rgba(0, 0, 0, 0.85);
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 43%;
+}
+
+.filtre {
+  margin-bottom: 10px;
+}
+
+.contenu-vert {
+  background-color : #DCEDC1;
+  border: 2px solid #689f38;
+  border-radius: 6px;
+  line-height: 40px;
+  padding: 10px;
+}
+.meteo {
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 5px #689f38;
+}
+.meteo .ville {
+  font-size: 50px;
+  font-weight: 500;
+  display: block;
+}
+.meteo .informations {
+  text-align: right;
+  padding-right: 15px;
+}
+.meteo .temperature {
+  font-size: 50px;
+  display: block;
+}
+.meteo .temperature .max {
+  font-weight: 500;
+}
+
+.col-password {
+  max-width: 230px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+
+.roles .custom-control-label {
+  padding-top: 4px;
+  display: inline;
+  user-select: none;
+}
+.roles {
+  overflow: auto;
+  padding: 0;
+}
+.roles .custom-checkbox {
+  border-bottom: 1px solid rgba(0,0,0,.125);
+  padding-left: 35px !important;
+}
